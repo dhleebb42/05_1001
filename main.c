@@ -5,26 +5,9 @@
 
 int main(int argc, char *argv[]) 
 {
-	int answer = 59;
-	int input;
-	int cnt=0;
-	
-	do
-	{
-		printf("input a number :");
-		scanf("%d", &input);
-		if(input < answer)
-		{
-			printf("low!\n");
-		}
-		else if (input > answer)
-		{
-			printf("hign!\n");
-		}
-		cnt++;
-	}
-	while(input != answer);
-
-	printf("Congratulation! trials : %i\n", cnt);
+	int i;
+	for(i=0; i<10; i++)
+		printf("Hello World!\n");
+		
 	return 0;
 }
